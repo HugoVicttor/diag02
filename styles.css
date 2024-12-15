@@ -1,0 +1,112 @@
+@import url(reset.css);
+
+* {
+    font-family: sans-serif;
+}
+
+header h1 {
+    display: flex; 
+    font-size: 32px; 
+    font-weight: bold; 
+    color: white; 
+    font-family: sans-serif; 
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+header li {
+    padding: 8px; background-color: rgb(203, 147, 255); font-family: sans-serif; color: white; 
+}
+
+header li:hover {
+    transition: 0.3s;
+    background-color: rgb(75, 6, 140);
+}
+
+.main-top, .main-bot {
+    background-color: rgb(221, 221, 221);
+}
+
+main .sup {
+    padding-bottom: 0px;
+}
+
+.icons {
+    padding-bottom: 32px;
+}
+
+.icons {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 16px;
+}
+
+.fa-brands {
+    background-color: blueviolet;
+    padding: 12px;
+    color: whitesmoke;
+    border-radius: 50%;
+}
+
+.socials i {
+    color: whitesmoke;
+    padding: 8px;
+    background-color: rgb(203, 147, 255);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+    padding: 64px;
+    margin: 0px;
+}
+
+.card {
+    text-align: center;
+    
+}
+
+.sup p {
+    padding: 8px;   
+}
+
+.card a {
+    padding: 8px;
+    background-color: blueviolet;
+    text-decoration: none;
+    color: whitesmoke;
+    display: block;
+}
+
+.sup a {
+    margin: 28px 132px;
+}
+
+.sub a {
+    margin: 28px 90px;
+}
+
+.sup {
+    display: flex;
+    padding: 48px 64px;
+    gap: 64px;
+    justify-content: space-around;
+}
+
+.sub {
+    display: flex;
+    padding: 48px 32px;
+    gap: 24px;
+}
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+.main-top {
+    padding-top: 8px;
+    padding-bottom: 16px;
+}
